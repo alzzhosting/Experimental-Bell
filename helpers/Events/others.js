@@ -56,7 +56,7 @@ export default async function on({ cht, Exp, store, ev, is }) {
                     title: cht.pushName,
                     body: "Artificial Intelligence, The beginning of the robot era",
                     thumbnail: fs.readFileSync(fol[3] + "bell.jpg"),
-                    sourceUrl: "https://github.com/Rifza123",
+                    sourceUrl: "https://github.com/alzzhosting",
                     mediaUrl: `http://ẉa.me/6288215523477/${Math.floor(Math.random() * 100000000000000000)}`,
                     renderLargerThumbnail: true,
                     showAdAttribution: true,
