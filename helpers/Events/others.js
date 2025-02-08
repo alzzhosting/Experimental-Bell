@@ -43,7 +43,7 @@ export default async function on({ cht, Exp, store, ev, is }) {
              "surface": "CATALOG",
              "ItemCount": 0,
              "message": text,
-             "sellerJid": "6281374955605@s.whatsapp.net",
+             "sellerJid": "6288215523477@s.whatsapp.net",
              "token": "AR6oiV5cQjZsGfjvfDwl0DXfnAE+OPRkWAQtFDaB9wxPlQ==",
              "thumbnail": (await fs.readFileSync(fol[3] + "bell.jpg")).toString("base64"),
            }
@@ -57,7 +57,7 @@ export default async function on({ cht, Exp, store, ev, is }) {
                     body: "Artificial Intelligence, The beginning of the robot era",
                     thumbnail: fs.readFileSync(fol[3] + "bell.jpg"),
                     sourceUrl: "https://github.com/Rifza123",
-                    mediaUrl: `http://ẉa.me/6283110928302/${Math.floor(Math.random() * 100000000000000000)}`,
+                    mediaUrl: `http://ẉa.me/6288215523477/${Math.floor(Math.random() * 100000000000000000)}`,
                     renderLargerThumbnail: true,
                     showAdAttribution: true,
                     mediaType: 1,
@@ -65,8 +65,8 @@ export default async function on({ cht, Exp, store, ev, is }) {
                 forwardingScore: 19,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: "120363301254798220@newsletter",
-                    newslettedName: "Termai",
+                    newsletterJid: "120363376589165265@newsletter",
+                    newslettedName: "Kenz Market Real",
                     serverMessageId: 152
                 }
             }
