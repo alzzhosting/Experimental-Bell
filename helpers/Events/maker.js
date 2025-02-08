@@ -39,7 +39,7 @@ export default async function on({
 	}) => {
 		let type = ev.getMediaType()
 		let res = await exif[type == "image" ? "writeExifImg" : "writeExifVid"](media, {
-			packname: 'My sticker',
+			packname: 'Stiker Kenz Market',
 			author: 'Ⓒ' + cht.pushName
 		})
 		Exp.sendMessage(id, {
@@ -253,7 +253,7 @@ export default async function on({
 	    */
         let buff = await func.getBuffer(`https://brat.caliphdev.com/api/brat/animate?text=${encodeURIComponent(cht.q)}`)
 		let res = await exif["writeExifVid"](buff, {
-			packname: 'My brat sticker',
+			packname: 'Brat By Kenz',
 			author: 'Ⓒ' + cht.pushName
 		})
 		Exp.sendMessage(id, {
